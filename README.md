@@ -9,4 +9,5 @@ Run "yarn nodemon index.js" to start the server<br/>
 Open a command prompt terminal and navigate to the repo folder<br/>
 Enter the test commands in commands.txt to test the apis<br/>
 You can also view the unsorted merchants object on localhost:3000/merchants<br/>
-Sources are listed at the top of index.js
+Sources are listed at the top of index.js<br/>
+Project is developed in accordance with description, using Express
