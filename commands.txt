@@ -8,7 +8,7 @@ LIST BY NEAREST
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/merchants
 
 GET
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/merchants/{id}
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/merchants/12
 
 DELETE
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE localhost:3000/merchants/13
