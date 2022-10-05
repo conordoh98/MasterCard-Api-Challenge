@@ -1,0 +1,22 @@
+CREATE
+>curl -X POST --data "latitude=62.44&longitude=5.33&merchantName=Supervalu" http://localhost:3000/merchants
+
+UPDATE
+curl -X PUT --data "latitude=62.44&longitude=5.33&merchantName=Lidl" http://localhost:3000/merchants/13
+
+LIST BY NEAREST
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/merchants
+
+GET
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:3000/merchants/{id}
+
+DELETE
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE localhost:3000/merchants/13
+
+LOGIN
+POSTMAN http://localhost:3000/login +
+{
+    "username": "Conor",
+    "password": "123456"
+}
+curl -X POST --data "username=Conor&password=12345" http://localhost:3000/login
