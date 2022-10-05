@@ -1,6 +1,6 @@
 # MasterCard-Api-Challenge
 
-Instructions<br/>
+Instructions:<br/><br/>
 Clone the repo<br/>
 Navigate to the repo folder in powershell<br/>
 Run "yarn install" in powershell to install dependancies (or npm equivalent)<br/>
